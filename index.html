@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src='node_modules/countdown/countdown.js'></script>
+  <script src='node_modules/moment/min/moment.min.js'></script>
+  <script src='node_modules/moment-countdown/dist/moment-countdown.min.js'></script>
+</head>
+<body>
+  <h1>Set for a specific time</h1>
+  <input id='time-hour' type='text' value='5' /></input> : <input id='time-minute' type='text' value='12'></input> <select id='time-ampm'><option value='am'>am</option><option value='pm'>pm</option></select>
+  <input id='time-set' type='button' value='Set'>
+  <br />
+  <h1>Set as a countdown</h1>
+  <input id='countdown-hour' type='text' value='0'/> hours
+  <input id='countdown-minute' type='text' value='0'> minutes
+  <input id='countdown-second' type='text' value='5'> seconds
+  <input id='countdown-set' type='button' value='Set'>
+  <script src='app.js'></script>
+  <ul id='alarms'>
+  </ul>
+</body>
+</html>
